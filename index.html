@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="PortfolioCss.css">
+    <link rel="stylesheet" href="MediaPort.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Jonas David</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">Jonas David</div>
+        <div class="ham-menu">
+        <div class="ham-icon" onclick="toggleMenu()">
+        <span></span> 
+        <span></span> 
+        <span></span> 
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="profilepic.jpg" alt="Jonas David picture" style=" border-radius: 1rem;">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm </p>
+            <h1 class="Title">Jonas David</h1>
+            <p class="section_text_p2">Computer Science Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open()">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="socials-cont">
+                <img src="fb.png" alt="My Facebook" class="icon" onclick="location.href='https://www.facebook.com/jonaspogiiii'" style="width: 28px; height: 28px; margin-top: 2px;">
+                <img src="ig.avif" alt="My IG" class="icon" onclick="location.href='https://www.instagram.com/elciiiid/'">
+                <img src="github.png" alt="My Github" class="icon" onclick="location.href='https://github.com/Elciiid'" style="width: 28px; height: 27px;">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="aboutme.jpg" alt="About me Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="exp.png" alt="experience picture" class="icon">
+                        <h3>Achievements</h3>
+                        <p>1st Year College<br>President's Listers</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="edu.png" alt="Education Picture" class="icon">
+                        <h3>Education</h3>
+                        <p>B.S. Computer Science <br>at Holy Angel University</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Welcome to my dynamic portfolio! I'm Jonas David, a passionate individual seamlessly blending my love for computer games, music, and academic excellence. As a dedicated gamer, I navigate virtual worlds with skill and enthusiasm, finding inspiration for creative problem-solving. Music is the heartbeat of my life; I compose, explore, and dive into the nuances of musical theory. Academic excellence is ingrained in my identity, driving my pursuit of knowledge and achievement. Whether in virtual realms or real-world challenges, my passion, determination, and enthusiasm are the driving forces behind every endeavor. Welcome to a portfolio that reflects my diverse interests and unwavering commitment to excellence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="achievements">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Achievements</h1>
+        <div class="achievement-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="achievement-sub-title">Academics</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>President's Listers</h3>
+                                <p>1st Year First Semester</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>Dean's Listers</h3>
+                                <p>1st Year Second Semester</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>With High Honors</h3>
+                                <p>Grade 12 Second Semester</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>With High Honors</h3>
+                                <p>Grade 12 First Semester</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>With High Honors</h3>
+                                <p>Grade 11 Second Semester</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>With Honors</h3>
+                                <p>Grade 11 First Semester</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="achievement-sub-title">Non Academics</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>Mobile Legends</h3>
+                                <p>InterSchool Champions Pampanga (2019)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>Mobile Legends</h3>
+                                <p>DAU Tournament Champions(2019)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>Mobile Legends</h3>
+                                <p>Pampanga Esports Tournament Champions (2018)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>Mobile Legends</h3>
+                                <p>Smart Arena Tournament First Runner Up(2018)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>Mobile Legends</h3>
+                                <p>Central Luzon Tournament Third Runner Up(2019)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check.png" alt="Check Mark" class="icon">
+                            <div>
+                                <h3>Mobile Legends</h3>
+                                <p>HAU Back to Back MSL Champions(2019-2020)</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <p class="section_text_p1">Get a Glimpse of my</p>
+        <h1 class="title">Skills</h1>
+        <div class="achievement-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="code.jpg" alt="Coding" style="width: 100%; height: auto; border-radius: 1rem;">
+                    </div>
+                    <h2 class="achievement-sub-title project-title">Coding</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.w3schools.com/html/'">HTML</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.w3schools.com/html/'">Java</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.python.org/'">Python</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="natural.jpg" alt="Natural Skill"  style="width: 100%; height: 100%; border-radius: 1rem;">
+                    </div>
+                    <h2 class="achievement-sub-title project-title">Natural Skill</h2>
+                    <ul class="natural-skill">
+                        <li>Creative</li>
+                        <li>Critical Thinking</li>
+                        <li>Passionate</li>
+                        <li>Determined</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="email.png" alt="Email png" class="icon contact-icon">
+                <p><a href="mailto:jonaselcid30@gmail.com">jonaselcid30@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="fb.png" alt="FB png" class="icon contact-icon">
+                <p><a href="https://www.facebook.com/jonaspogiiii">Jonas David</a></p>
+            </div>
+        </div>
+        <form onsubmit="return validateForm()" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        
+            <input class="btn btn-color-1" type="submit" value="Submit">
+          </form>
+    </section>
+    
+    <script src="PortfolioJS.js"></script>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievements">Achievements<a><li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Jonas David. All Rights Reserved</p>
+    </footer>    
+</body>
+</html>
